@@ -1,0 +1,62 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-family: Arial, Helvetica, sans-serif;
+	/* 
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	text-align: center;
+	*/
+}
+
+body{
+	background-color: #f5f5f5;
+}
+ 
+.sliderCars{
+	width: 1280px;
+	height: auto;
+	margin: 50px auto 0;
+} 
+ 
+.sliderCars ul{
+	display: flex;
+	padding: 0;
+	width: 400%;
+	animation: slide 20s infinite alternate ease-in-out;
+} 
+
+.sliderCars li {
+	width: 100%;
+	list-style: none;
+	position: relative;
+}
+
+.sliderCars img{
+	width: 100%;
+}
+ 
+ 
+.nav-bar ul{
+	list-style-type: none;
+	display: flex;
+} 
+ 
+/* 
+.introduction{
+	background-color: #222222;
+	color: #ffffff;
+}
+
+.links-redes{
+	background-color: #000000;
+	color: #ffffff;
+}
+
+.p-description{
+	max-width:1000px;
+	text-align: justify;
+}
+*/
